@@ -38,7 +38,6 @@ for (let x = 0; x < baseCelle; x++) {
         cella.classList.add('cella')
         cella.onmousedown = function() {
             cella.style.backgroundColor = coloreSelezionato
-            console.log("primo", coloreSelezionato)
         }
     }
 }
