@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    padding: 20px;
+}
+h1 {
+    padding-bottom: 20px;
+}
+
+.contenitore {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.riga {
+    max-width: 600px;
+    max-height: 300px;
+    display: flex;
+}
+
+.cella {
+    max-width: 600px;
+    max-height: 600px;
+    aspect-ratio: 1;
+    border: 0.5px dotted rgb(185, 185, 185);
+    flex-grow: 1;
+}
+
+.colorPalette {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.colore {
+    width: 35px;
+    height: 35px;
+    border: 4px double black;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#resetta {
+    margin: 15px;
+    font-size: 16px;
+    padding: 4px;
+    cursor: pointer;
+}
